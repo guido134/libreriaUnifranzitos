@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Unifranzitos</string>
+
+    <!--pantalla uno-->
+    <string name="title1">Bienvenido</string>
+    <string name="desc1">Campeonato de fútbol UnifranZitos a nivel local y todas las sedes.</string>
+
+    <!--pantalla dos-->
+    <string name="title2">Grandes premios</string>
+    <string name="desc2">Se tiene categoría varones y mujeres con premiacion hasta el 3er lugar</string>
+
+    <!--pantalla tres-->
+    <string name="title3">Inscripcion</string>
+    <string name="desc3">Inscribe a tu equipo desde la App</string>
+
+    <!--botonera-->
+    <string name="next">Siguiente</string>
+    <string name="back">Atrás</string>
+    <string name="done">Finalizar</string>
+    <!--login-->
+    <string name="user">usuario</string>
+    <string name="pwd">pasword</string>
+
+    <string name="log">Login</string>
+    <string name="reg">register</string>
+
+    <string name="epi">CALCULADORA CIENTIFICA</string>
+    <string name="respuesta"></string>
+    <string name="intro">Introduce operacion</string>
+    <string name="igual">=</string>
+    <string name="clear">C</string>
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="pot">X^</string>
+    <string name="raiz">√</string>
+    <string name="sen">SEN</string>
+    <string name="cos">COS</string>
+    <string name="tan">TAN</string>
+    <string name="csc">CSC</string>
+    <string name="sec">SEC</string>
+    <string name="ctg">CTG</string>
+    <string name="fac">X!</string>
+    <string name="masomenos">+/-</string>
+    <string name="off">OFF</string>
+    <string name="pors">%</string>
+    <string name="numDell">DELL</string>
+    <string name="punt">.</string>
+    <string name="sum">+</string>
+    <string name="res">-</string>
+    <string name="multi">*</string>
+    <string name="div">/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

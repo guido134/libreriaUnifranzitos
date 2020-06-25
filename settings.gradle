@@ -1,0 +1,3 @@
+rootProject.name='libreriaUnifranzitos'
+include ':app'
+include ':unifranzitoslibrary'
