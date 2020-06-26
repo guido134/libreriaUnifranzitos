@@ -61,5 +61,18 @@ Ahora al activitymain.xml el siguien codigo:
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </androidx.viewpager.widget.ViewPager>
+    
+para la implementacion de esta libreria se debe de colocar en lo repositories el siguiente codigo:
 
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
+y este en el gradel app en la parte de dependencias:
+
+    dependencies {
+	        implementation 'com.github.guido134:libreriaUnifranzitos:0.1'
+	    }
