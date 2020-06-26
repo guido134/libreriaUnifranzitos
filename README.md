@@ -20,26 +20,26 @@ Una vez que se haya completado la sincronización del proyecto de Gradle, se mos
 Anatomía de un archivo AAR
 La extensión de un archivo AAR es .aar y el tipo de artefacto de Maven también debe ser aar. El archivo es de tipo zip y contiene las siguientes entradas obligatorias:
 
-/AndroidManifest.xml
-/classes.jar
-/res/
-/R.txt
-/public.txt
+    /AndroidManifest.xml
+    /classes.jar
+    /res/
+    /R.txt
+    /public.txt
 Además, un archivo AAR puede incluir una o más de las siguientes entradas opcionales:
 
-/assets/
-/libs/name.jar
-/jni/abi_name/name.so (donde abi_name es una de las ABI compatibles con Android)
-/proguard.txt
-/lint.jar
-/api.jar
+    /assets/
+    /libs/name.jar
+    /jni/abi_name/name.so (donde abi_name es una de las ABI compatibles con Android)
+    /proguard.txt
+    /lint.jar
+    /api.jar
 
 Añadir al archivo activity_main.java
 
-  _initializeComponents();
-
-   //initializeAdapter
-   _initializeFragmentAdapter();
+    _initializeComponents();
+  
+  
+    _initializeFragmentAdapter();
    
    
    ahora se debe de crear estas funciones con las siguientes parametros:
@@ -56,7 +56,7 @@ Añadir al archivo activity_main.java
 
 Ahora al activitymain.xml el siguien codigo:
 
-   <androidx.viewpager.widget.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPagerContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
